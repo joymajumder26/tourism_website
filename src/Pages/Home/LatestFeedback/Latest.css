@@ -1,0 +1,37 @@
+.feed{
+    /* border: 1px solid white; */
+    margin:50px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    
+    
+  }
+  .feed img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: auto;
+      margin-bottom: 20px;
+     
+  }
+  .feed img:hover{
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transform: scale(0.9,0.9);
+  }
+  .cart{
+    
+    border: 0px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding-bottom: 5px;
+  
+  }
+  .cart .description{
+    
+    padding: 15px;
+  }
+  .cart i{
+    color: orange;
+  }
